@@ -5,5 +5,5 @@ curl -sO https://raw.githubusercontent.com/pnav2000/demo/main/Wazuh/wazuh-instal
 ```
 
 ```bash
- wget -qO- https://raw.githubusercontent.com/pnav2000/demo/main/Wazuh/FinalWAZUHWhiteLabel.sh && sudo bash ./FinalWAZUHWhiteLabel.sh -a
+ curl -sO https://raw.githubusercontent.com/pnav2000/demo/main/Wazuh/WhiteLabel.sh && sudo bash ./WhiteLabel.sh -a
 ```
