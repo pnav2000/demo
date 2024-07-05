@@ -27,5 +27,6 @@ cd "$DIR2" || { echo "Failed to change directory to $DIR2"; exit; }
 # Download and replace the files
 wget -O Wazuh-Logo.svg "$URL_LOGO1"
 wget -O wazuh-wazuh-bg.svg "$URL_LOGO2"
+mv wazuh-wazuh-bg.svg wazuh_wazuh_bg.svg
 
 echo "Logo updated successfully."
